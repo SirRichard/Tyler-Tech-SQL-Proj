@@ -1,4 +1,4 @@
-SELECT TOP 10
+SELECT TOP 10 -- returns the most prevelant queries and how often the cache is being hit
 	        t.text ,
 	        execution_count ,
 	        statement_start_offset AS stmt_start_offset ,
@@ -9,5 +9,5 @@ SELECT TOP 10
 	        total_physical_reads / execution_count AS avg_physical_reads
 	FROM	sys.dm_exec_query_stats AS s
 	        CROSS APPLY sys.dm_exec_sql_text(s.sql_handle) AS t
-	WHERE	DB_NAME(t.dbid) = ‘Master'
+	WHERE	DB_NAME(t.dbid) = â€˜Master'
 	ORDER BY avg_physical_reads DESC;
