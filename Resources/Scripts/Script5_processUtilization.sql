@@ -1,5 +1,5 @@
 DECLARE @ms_ticks_now BIGINT
-
+-- returns the processes that are taking the most resources. 
 SELECT @ms_ticks_now = ms_ticks
 FROM sys.dm_os_sys_info;
 
