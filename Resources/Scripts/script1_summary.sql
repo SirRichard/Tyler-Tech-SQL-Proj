@@ -1,4 +1,4 @@
-SELECT dm_ws.wait_duration_ms,
+SELECT dm_ws.wait_duration_ms,-- summerizes all the data from other scripts
 dm_ws.wait_type,
 dm_es.status,
 dm_t.TEXT,
