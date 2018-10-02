@@ -1,4 +1,4 @@
-WITH [Waits] AS
+WITH [Waits] AS -- dispayes the biggest wait time offenders
     (SELECT
         [wait_type],
         [wait_time_ms] / 1000.0 AS [WaitS],
