@@ -1,4 +1,4 @@
-
+-- gives suggested memmory allocation for sql server for optimal perfomance 
 IF OBJECT_ID('tempdb..#mem') IS NOT NULL DROP TABLE #mem
 GO
 
