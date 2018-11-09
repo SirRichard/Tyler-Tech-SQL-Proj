@@ -22,7 +22,7 @@ namespace virtualprototype
             InitializeComponent();
             String waitTimeScript = File.ReadAllText(@"..\..\..\..\Resources\Scripts\Script2_waitTime.sql");
             String IOUtilization = File.ReadAllText(@"..\..\..\..\Resources\Scripts\Script3_IOutilization.sql");
-          /*  
+          
             try
             {
                 // Build connection string
@@ -37,16 +37,18 @@ namespace virtualprototype
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
                     connection.Open();
-                    // SqlCommand WaitTimeScript2= connection.CreateCommand();
-
+                    SqlCommand WaitTimeScriptCommand= connection.CreateCommand();
+                    WaitTimeScriptCommand.CommandText = waitTimeScript;
+                    SqlDataReader WaitTimeResult = WaitTimeScriptCommand.ExecuteReader();
+                    fillChart(WaitTimeResult,"wait time");
                 }
             }
             catch (SqlException exception)
             {
                 Console.WriteLine(exception.ToString());
             }
-            */
-            fillChart();
+            
+            
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -131,16 +133,15 @@ namespace virtualprototype
         {
 
         }
-        private void fillChart()
+        private void fillChart(SqlDataReader Result,String seriesType)
         {
-            //AddXY value in chart1 in series named as Salary  
-            chart1.Series["Disk"].Points.AddXY("Ajay", "10000");
-            chart1.Series["Disk"].Points.AddXY("Ramesh", "8000");
-            chart1.Series["Disk"].Points.AddXY("Ankit", "7000");
-            chart1.Series["Disk"].Points.AddXY("Gurmeet", "10000");
-            chart1.Series["Disk"].Points.AddXY("Suresh", "8500");
-            //chart title  
-            chart1.Titles.Add("Salary Chart");
+            while (Result.Read())
+            {
+                chart1.Series[seriesType].Points.AddXY((string)Result[0],(string)Result[1]);
+                //AddXY value in chart1 in series named as Salary  
+                //chart title  
+                chart1.Titles.Add("Salary Chart");
+            }
         }
     }
 }
