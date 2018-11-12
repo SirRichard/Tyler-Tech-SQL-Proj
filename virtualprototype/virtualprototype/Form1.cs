@@ -135,6 +135,7 @@ namespace virtualprototype
         }
         private void fillChart(SqlDataReader Result,String seriesType)
         {
+            Result.Read();
             while (Result.Read())
             {
                 chart1.Series[seriesType].Points.AddXY((string)Result[0],(string)Result[1]);
