@@ -1,0 +1,16 @@
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\bin\Debug\GregsASuperGreatGuy.exe.config
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\bin\Debug\GregsASuperGreatGuy.exe.manifest
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\bin\Debug\GregsASuperGreatGuy.application
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\bin\Debug\GregsASuperGreatGuy.exe
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\bin\Debug\GregsASuperGreatGuy.pdb
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.csprojAssemblyReference.cache
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\virtualprototype.Form1.resources
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\virtualprototype.Form2.resources
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\SQLDiag.Properties.Resources.resources
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.csproj.GenerateResource.cache
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.csproj.CoreCompileInputs.cache
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.TrustInfo.xml
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.exe.manifest
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.application
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.exe
+C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.pdb
