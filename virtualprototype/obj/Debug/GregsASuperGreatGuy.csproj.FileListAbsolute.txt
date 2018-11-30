@@ -14,3 +14,6 @@ C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtua
 C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.application
 C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.exe
 C:\Users\Joshua Powell\Desktop\Tyler-Tech-SQL-Proj-Trial\virtualprototype\virtualprototype\obj\Debug\GregsASuperGreatGuy.pdb
+C:\Users\Judson Hayes pc\Documents\GitHub\Tyler-Tech-SQL-Proj\virtualprototype\bin\Debug\GregsASuperGreatGuy.exe.config
+C:\Users\Judson Hayes pc\Documents\GitHub\Tyler-Tech-SQL-Proj\virtualprototype\obj\Debug\GregsASuperGreatGuy.exe
+C:\Users\Judson Hayes pc\Documents\GitHub\Tyler-Tech-SQL-Proj\virtualprototype\obj\Debug\GregsASuperGreatGuy.pdb
